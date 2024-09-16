@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    width: 170px;
+    border-radius: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+    li a {
+        font-weight: bold;
+        color: royalblue;
+        transition: 0.3s;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+
